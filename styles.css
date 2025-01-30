@@ -11,15 +11,19 @@ header {
 }
 
 header h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: #000c66;
+}
+
+h2 {
+    font-size: 2.2rem;
 }
 
 h1, h2, h3, h4, h5, h6, p, a {
     color: #ffffff;
     font-family: "Comfortaa", serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal; 
 }
 
@@ -33,9 +37,13 @@ h1, h2, h3, h4, h5, h6, p, a {
     border-radius: 10px;
 
 }
+
+.dark-heading  {
+    color:#000c66;
+}
  
 p {
-    line-height: 2;
+    line-height: 1.7;
     font-size: 1.2rem;
 }
 
@@ -43,14 +51,15 @@ a {
     color: white;
 }
 
-ol li {
+ol li, ul li {
     color: white;
     padding:5px;
+    font-family: "Comfortaa", serif;
+    font-optical-sizing: auto;
 }
 
-
 section {
-    padding: 5% 3%;
+    padding: 5% 10%;
     /* border: 3px solid white; */
 }
 
@@ -67,7 +76,9 @@ section {
 }
 
 .section4 {
-    background-color: #7ec8e3;
+    background-color: #d4f1f4
+
+    ;
 }
 
 .section-img {
@@ -92,4 +103,7 @@ section {
     height:100%;
 }
 
-
+.flex-row {
+    display: flex;
+    justify-content: center;
+}
