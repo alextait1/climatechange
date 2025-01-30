@@ -118,7 +118,6 @@ section {
 }
 
 .video-container iframe{
-    width: 90%;
-    min-height: 600px;
-    height: 80vh;
+    aspect-ratio: 16 / 9;
+    width: 100%;
 }
