@@ -12,7 +12,7 @@ header {
 
 header h1 {
     font-size: 3.5rem;
-    color: #000c66;
+    color: #053030;
 }
 
 h2 {
@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6, p, a {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 15px 10px 10px 10px;
+    padding: 25px 20px 35px 20px;
     background-color: rgba(255,255,255,0.5);
     border: 1px solid transparent;
     border-radius: 10px;
@@ -68,15 +68,25 @@ section {
 }
 
 .section1 {
-    background-color:#050a30;
+    background-color:#053030;
 }
 
 .section2 {
-    background-color:#000c66;
+    background-image: url("./assets/pexels-aulsh99-2860705.jpg");
+    background-size: cover;
+    padding: 5%;
+}
+
+.section2-inner {
+    padding: 5% 5% 7% 5%;
+    background-color: rgba(0, 12, 102, 0.9);
+    border: #000c66;
+    border-radius: 30px;
+
 }
 
 .section3 {
-    background-color:#0000ff;
+    background-color:#000c66;
 }
 
 .section4 {
@@ -112,6 +122,18 @@ section {
     justify-content: center;
 }
 
+.flex-split {
+    justify-content: space-between;
+}
+
+.flex-split img {
+    width: 50%;
+    margin-right: 2rem;
+}
+
+.flex-child p {
+    margin-top: 0;
+}
 .video-container {
     margin-top: 4rem;
     width: 100%;
