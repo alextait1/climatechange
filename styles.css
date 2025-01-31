@@ -59,9 +59,13 @@ p {
     color:#000c66;
 }
 
-p {
+p, a {
     line-height: 1.7;
     font-size: 1.2rem;
+}
+
+h3 a {
+    font-size: 2rem;
 }
 
 a {
@@ -77,25 +81,31 @@ ol li, ul li {
 
 ol {
     display: flex;
+    flex-wrap: wrap;
 }
+
 
 section {
     padding: 5% 10%;
 }
 
 
-.section1 {
+.section1, .section3{
     background-color:#053030;
+    padding: 10% 10% 0% 10%;
 }
 
-.section1 p, .section1 h2{
+.section1 p, .section1 h2, .section3 h2{
     color: white;
 }
 
+.trees {
+    margin-top: 3rem;
+}
 .section2 {
     background-image: url("./assets/pexels-aulsh99-2860705.jpg");
     background-size: cover;
-    padding: 5%;
+    padding: 10% 5%;
 }
 
 .section2-inner h2, .section2-inner p, .section2-inner a, .section2-inner h3{
@@ -111,10 +121,10 @@ section {
     border-radius: 30px;
 
 }
-
+/* 
 .section3 {
     background-color:#000c66;
-}
+} */
 
 .section4 {
     background-color: #d4f1f4
@@ -183,9 +193,31 @@ section {
 .website-img {
     width: 100%;
     height:auto;
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
 }
 
 .w-50 {
     width: 50%;
+}
+
+.resource {
+    margin: 1rem;
+    padding: 1rem 2rem;
+    width: 40%;
+}
+
+.resource p, .resource h2, .resource a {
+    color: white;
+    margin: 1rem;
+}
+
+.bg-lightGreen {
+    background-color: rgb(4, 67, 67);
+    border: 1px solod #044343;
+    border-radius: 15px;
+    box-shadow: rgba(4, 67, 67, 0.24) 0px 3px 8px;
+}
+
+.flex-wrap {
+    flex-wrap:wrap;
 }
