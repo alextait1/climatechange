@@ -64,7 +64,6 @@ ol li, ul li {
 
 section {
     padding: 5% 10%;
-    /* border: 3px solid white; */
 }
 
 .section1 {
@@ -97,7 +96,10 @@ section {
 
 .section-img {
     height:30%;
-    width: 30%;
+    min-width: 35%;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: -1grem;
 }
 
 .feature-img {
@@ -119,7 +121,7 @@ section {
 
 .flex-row {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .flex-split {
@@ -142,4 +144,15 @@ section {
 .video-container iframe{
     aspect-ratio: 16 / 9;
     width: 100%;
+}
+
+
+.website-img {
+    width: 100%;
+    height:auto;
+    margin-left: 2rem;
+}
+
+.w-50 {
+    width: 50%;
 }
