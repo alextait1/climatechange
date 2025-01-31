@@ -11,23 +11,37 @@ header {
 }
 
 header h1 {
-    font-size: 3.5rem;
+    font-size: 5rem;
     color: #053030;
 }
 
 h2 {
-    font-size: 2.2rem;
+    font-size: 3rem;
 }
 
 h3  {
     font-size: 1.9rem;
 }
 
-h1, h2, h3, h4, h5, h6, p, a {
+h1, h3, h4, h5, h6{
     color: #ffffff;
     font-family: "Comfortaa", serif;
     font-optical-sizing: auto;
     font-weight: 500;
+    font-style: normal; 
+}
+
+h2, a {
+    font-family: "Comfortaa", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal; 
+}
+
+p {
+    font-family: "Comfortaa", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
     font-style: normal; 
 }
 
@@ -39,13 +53,12 @@ h1, h2, h3, h4, h5, h6, p, a {
     background-color: rgba(255,255,255,0.5);
     border: 1px solid transparent;
     border-radius: 10px;
-
 }
 
 .dark-heading  {
     color:#000c66;
 }
- 
+
 p {
     line-height: 1.7;
     font-size: 1.2rem;
@@ -62,12 +75,21 @@ ol li, ul li {
     font-optical-sizing: auto;
 }
 
+ol {
+    display: flex;
+}
+
 section {
     padding: 5% 10%;
 }
 
+
 .section1 {
     background-color:#053030;
+}
+
+.section1 p, .section1 h2{
+    color: white;
 }
 
 .section2 {
@@ -76,10 +98,16 @@ section {
     padding: 5%;
 }
 
+.section2-inner h2, .section2-inner p, .section2-inner a, .section2-inner h3{
+    color: #000c66;
+    font-weight: 500;
+}
+
 .section2-inner {
     padding: 5% 5% 7% 5%;
-    background-color: rgba(0, 12, 102, 0.9);
     border: #000c66;
+    /* background-color: rgba(0, 12, 102, 0.9); */
+    background-color: rgba(255,255,255, 0.9);
     border-radius: 30px;
 
 }
@@ -122,6 +150,11 @@ section {
 .flex-row {
     display: flex;
     justify-content: space-between;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
 }
 
 .flex-split {
