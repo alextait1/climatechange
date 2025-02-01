@@ -20,7 +20,15 @@ h2 {
 }
 
 h3  {
-    font-size: 1.9rem;
+    font-size: 2.2rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+}
+
+h5 {
+    font-size: 1.6rem;
 }
 
 h1, h3, h4, h5, h6 {
@@ -59,9 +67,9 @@ p {
     color:#000c66;
 }
 
-p, a {
+p, a, li {
     line-height: 1.7;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 h3 a {
@@ -90,11 +98,15 @@ section {
 }
 
 
-.section1, .section3{
+.section1{
     background-color:#053030;
     padding: 10% 10% 0% 10%;
 }
 
+.section3 {
+    background-color:#053030;
+    padding: 10%;
+}
 .section1 p, .section1 h2, .section3 h2{
     color: white;
 }
@@ -113,19 +125,24 @@ section {
     font-weight: 500;
 }
 
-.section2-inner {
+.section2-inner, .section4-inner {
     padding: 5% 5% 7% 5%;
     border: #000c66;
-    /* background-color: rgba(0, 12, 102, 0.9); */
     background-color: rgba(255,255,255, 0.9);
     border-radius: 30px;
-
 }
 
 .section4 {
-    background-color: #d4f1f4
+    background-image: url("./assets/pexels-matthew-montrone-230847-1179229.jpg");
+    background-color: #053030;
+    background-blend-mode: overlay;
+    background-size: cover;
+    padding: 10% 5%;
+}
 
-    ;
+.section4-inner h2, .section4-inner h3, .section4-inner h4, .section4-inner h5, .section4-inner p, .section4-inner a, .section4-inner ul li{
+    color: #053030;
+    font-weight: 500;
 }
 
 .section-img {
@@ -224,4 +241,18 @@ section {
         padding: 1rem 2rem;
         width: 90%;
     }
+}
+
+.quote {
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-right {
+    text-align: end;
+}
+
+footer {
+    padding: 0 10%;
 }
