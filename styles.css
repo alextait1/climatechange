@@ -220,9 +220,13 @@ section {
     width: 37%;
 }
 
-.resource p, .resource h2, .resource a {
+.resource p, .resource h2{
     color: white;
     margin: 1rem;
+}
+
+.resource a {
+    color: white;
 }
 
 .bg-lightGreen {
