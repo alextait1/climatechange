@@ -286,8 +286,17 @@ section {
         padding: 5% 2%;
     }
 
+    .section3 h2 {
+        margin-left: 3%;
+    }
+
+    .section3 h3 {
+        margin-top: 0;
+    }
+
     .resource {
-        width: 70%;
+        width: 80%;
+        padding: 5%;
     }
 }
 .quote {
