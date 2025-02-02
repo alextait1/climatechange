@@ -12,6 +12,8 @@ header {
 
 .nav-list {
     list-style: none;
+    padding: 0 10%;
+    margin: 0;
 }
 
 header h1 {
